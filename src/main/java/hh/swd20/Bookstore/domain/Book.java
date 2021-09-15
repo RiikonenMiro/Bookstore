@@ -6,9 +6,9 @@ public class Book {
 	private String author;
 	private int year;
 	private String isbn;
-	private int price;
+	private double price;
 	
-	public Book(String title, String author, int year, String isbn, int price) {
+	public Book(String title, String author, int year, String isbn, double price) {
 		super();
 		this.title = title;
 		this.author = author;
@@ -42,7 +42,7 @@ public class Book {
 		this.isbn = isbn;
 	}
 
-	public void setPrice(int price) {
+	public void setPrice(double price) {
 		this.price = price;
 	}
 
@@ -62,7 +62,7 @@ public class Book {
 		return isbn;
 	}
 
-	public int getPrice() {
+	public double getPrice() {
 		return price;
 	}
 

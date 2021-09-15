@@ -10,7 +10,7 @@ public class BookstoreController {
 	
 	@RequestMapping("/index")
 	public String index() {
-		return "Welcome to the bookstore.";
+		return "bookstore"; // bookstore.html
 	}
 
 }
