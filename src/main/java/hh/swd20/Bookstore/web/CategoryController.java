@@ -30,6 +30,6 @@ public class CategoryController {
 	@RequestMapping(value = "/savecategory", method = RequestMethod.POST)
 	public String save(Category category) {
 		crepository.save(category);
-		return "redirect:categorylist"; // booklist.html
+		return "redirect:/categorylist"; // categorylist.html
 	}
 }
